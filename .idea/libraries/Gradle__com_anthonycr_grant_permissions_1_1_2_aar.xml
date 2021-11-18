@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anthonycr.grant:permissions:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/explorer/build/intermediates/exploded-aar/com.anthonycr.grant/permissions/1.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/explorer/build/intermediates/exploded-aar/com.anthonycr.grant/permissions/1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/explorer/build/intermediates/exploded-aar/com.anthonycr.grant/permissions/1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
