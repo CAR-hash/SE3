@@ -56,11 +56,36 @@ public final class DirectoryInfoDialog extends DialogFragment {
         final long mFreeBytes;
         final long mUsedSpace;
 
+        private  CharSequence PermissionDecorator(CharSequence permission){
+            StringBuilder ret;
+            String t=permission.toString();
+            ret=new StringBuilder(" ");
+
+            for (int i=0;i<t.length();i++){
+                if (t.charAt(i)=='r'){
+                    ret.append("可读");
+                }else if(t.charAt(i)=='w'){
+                    ret.append("可写");
+                }else if (t.charAt(i)=='x'){
+                    ret.append("可执行");
+                }
+            }
+            ret.append("的");
+            for (int i=0;i<t.length();i++){
+                if (t.charAt(i)=='d') {
+                    ret.append("目录");
+                }else if(t.charAt(i)=='-'){
+                    ret.append("文件");
+                }
+            }
+            return ret;
+        }
+
         private PartitionInfo(final CharSequence path,
                               final CharSequence permission, final long totalBytes,
                               final long blockSize, final long freeBytes, final long usedSpace) {
             this.mPath = path;
-            this.mPermissionText = permission;
+            this.mPermissionText = this.PermissionDecorator(permission);
             this.mTotalBytes = totalBytes;
             this.mBlockSize = blockSize;
             this.mFreeBytes = freeBytes;
