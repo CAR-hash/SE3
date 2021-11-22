@@ -79,6 +79,9 @@
     <string name="theme">主题</string>
     <string name="light">亮色调</string>
     <string name="dark">暗色调</string>
+    <string name="orange">橙色调</string>
+    <string name="red">红色调</string>>
+    <string name="blue">蓝色调</string>
     <string name="permissions">权限</string>
     <string name="owner">所有者：</string>
     <string name="group">用户组：</string>

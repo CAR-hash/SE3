@@ -14,5 +14,21 @@
     <color name="dark_color_primary">#131313</color>
     <color name="dark_color_primaryDark">#090909</color>
     <color name="holo_dark_window_background">#222222</color>
+    <!--orange theme -->
+    <color name="orange_bookmark_bg">#FF9800</color>
+    <color name="orange_color_primary">#FF9700</color>
+    <color name="orange_color_primaryOrange">#000000</color>
+    <color name="holo_orange_window_background">#F3B252</color>
 
+    <!--red theme -->
+    <color name="red_bookmark_bg">#FF0000</color>
+    <color name="red_color_primary">#E60000</color>
+    <color name="red_color_primaryRed">#000000</color>
+    <color name="holo_red_window_background">#FF0000</color>
+
+    <!--blue theme -->
+    <color name="blue_bookmark_bg">#008EFF</color>
+    <color name="blue_color_primary">#008EFF</color>
+    <color name="blue_color_primaryBlue">#008AF8</color>
+    <color name="holo_blue_window_background">#0086F1</color>
 </resources>

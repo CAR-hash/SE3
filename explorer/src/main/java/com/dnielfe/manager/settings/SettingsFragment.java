@@ -12,7 +12,11 @@ public final class SettingsFragment extends PreferenceFragment {
 
     private static final String[] THEMES_VALUES = new String[]{
             Integer.toString(R.style.ThemeLight),
-            Integer.toString(R.style.ThemeDark)};
+            Integer.toString(R.style.ThemeDark),
+            Integer.toString(R.style.ThemeOrange),
+            Integer.toString(R.style.ThemeRed),
+            Integer.toString(R.style.ThemeBlue)
+    };
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

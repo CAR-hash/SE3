@@ -85,6 +85,9 @@
     <string name="theme">Theme</string>
     <string name="light">Light</string>
     <string name="dark">Dark</string>
+    <string name="orange">Orange</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
 
     <!-- permissions -->
     <string name="permissions">Permissions</string>

@@ -60,5 +60,93 @@
         <item name="action_delete">@drawable/holo_dark_action_delete</item>
         <item name="action_share">@drawable/holo_dark_action_share</item>
     </style>
+    <style name="ThemeOrange" parent="Theme.AppCompat.NoActionBar">
+        <item name="themeId">3</item>
+        <item name="windowActionModeOverlay">true</item>
 
+        <!-- android colors -->
+        <item name="colorPrimary">@color/orange_color_primary</item>
+        <item name="colorPrimaryDark">@color/orange_color_primaryOrange</item>
+        <item name="android:windowBackground">@color/holo_orange_window_background</item>
+
+        <!-- custom colors -->
+        <item name="bookmark_windoBackground">@color/orange_bookmark_bg</item>
+
+        <!-- main drawables -->
+        <item name="fab_drawable">@drawable/holo_light_ic_action_new</item>
+        <item name="action_info">@drawable/holo_dark_action_info</item>
+        <item name="action_paste">@drawable/actionpaste</item>
+        <item name="action_remove">@drawable/holo_dark_action_remove</item>
+        <item name="action_search">@drawable/holo_dark_action_search</item>
+
+        <!-- action mode drawables -->
+        <item name="action_copy">@drawable/holo_dark_action_copy</item>
+        <item name="action_cut">@drawable/holo_dark_action_cut</item>
+        <item name="action_edit">@drawable/holo_dark_action_edit</item>
+        <item name="action_multi">@drawable/holo_dark_ic_action_select_all</item>
+        <item name="action_zip">@drawable/holo_dark_ic_storage</item>
+        <item name="action_bookmark">@drawable/holo_dark_ic_bookmark</item>
+        <item name="action_delete">@drawable/holo_dark_action_delete</item>
+        <item name="action_share">@drawable/holo_dark_action_share</item>
+    </style>
+
+    <style name="ThemeRed" parent="Theme.AppCompat.NoActionBar">
+        <item name="themeId">4</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- android colors -->
+        <item name="colorPrimary">@color/red_color_primary</item>
+        <item name="colorPrimaryDark">@color/red_color_primaryRed</item>
+        <item name="android:windowBackground">@color/holo_red_window_background</item>
+
+        <!-- custom colors -->
+        <item name="bookmark_windoBackground">@color/red_bookmark_bg</item>
+
+        <!-- main drawables -->
+        <item name="fab_drawable">@drawable/holo_light_ic_action_new</item>
+        <item name="action_info">@drawable/holo_dark_action_info</item>
+        <item name="action_paste">@drawable/actionpaste</item>
+        <item name="action_remove">@drawable/holo_dark_action_remove</item>
+        <item name="action_search">@drawable/holo_dark_action_search</item>
+
+        <!-- action mode drawables -->
+        <item name="action_copy">@drawable/holo_dark_action_copy</item>
+        <item name="action_cut">@drawable/holo_dark_action_cut</item>
+        <item name="action_edit">@drawable/holo_dark_action_edit</item>
+        <item name="action_multi">@drawable/holo_dark_ic_action_select_all</item>
+        <item name="action_zip">@drawable/holo_dark_ic_storage</item>
+        <item name="action_bookmark">@drawable/holo_dark_ic_bookmark</item>
+        <item name="action_delete">@drawable/holo_dark_action_delete</item>
+        <item name="action_share">@drawable/holo_dark_action_share</item>
+    </style>
+
+    <style name="ThemeBlue" parent="Theme.AppCompat.NoActionBar">
+        <item name="themeId">5</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- android colors -->
+        <item name="colorPrimary">@color/blue_color_primary</item>
+        <item name="colorPrimaryDark">@color/blue_color_primaryBlue</item>
+        <item name="android:windowBackground">@color/holo_blue_window_background</item>
+
+        <!-- custom colors -->
+        <item name="bookmark_windoBackground">@color/blue_bookmark_bg</item>
+
+        <!-- main drawables -->
+        <item name="fab_drawable">@drawable/holo_light_ic_action_new</item>
+        <item name="action_info">@drawable/holo_dark_action_info</item>
+        <item name="action_paste">@drawable/actionpaste</item>
+        <item name="action_remove">@drawable/holo_dark_action_remove</item>
+        <item name="action_search">@drawable/holo_dark_action_search</item>
+
+        <!-- action mode drawables -->
+        <item name="action_copy">@drawable/holo_dark_action_copy</item>
+        <item name="action_cut">@drawable/holo_dark_action_cut</item>
+        <item name="action_edit">@drawable/holo_dark_action_edit</item>
+        <item name="action_multi">@drawable/holo_dark_ic_action_select_all</item>
+        <item name="action_zip">@drawable/holo_dark_ic_storage</item>
+        <item name="action_bookmark">@drawable/holo_dark_ic_bookmark</item>
+        <item name="action_delete">@drawable/holo_dark_action_delete</item>
+        <item name="action_share">@drawable/holo_dark_action_share</item>
+    </style>
 </resources>
